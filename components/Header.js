@@ -9,7 +9,7 @@ const Header = () => (
     <Link href="/">
       <a style={linkStyle}>Home</a>
     </Link>
-    <Link href="/about">
+    <Link href="/about" replace>
       <a style={linkStyle}>About</a>
     </Link>
   </div>
